@@ -288,3 +288,53 @@ body{
 }
 
 
+
+/* Responsive */
+@media (max-width: 800px) {
+
+  .banner {
+    flex-direction: column;
+    padding: 8px 10px;
+    text-align: center;
+    gap: 4px;
+  }
+
+  .banner-icons {
+    gap: 6px;
+    font-size: 0.8rem;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-icons i {
+    font-size: 20px;
+  }
+
+  .hero-section {
+    padding: 60px 20px;
+  }
+
+  .hero-section h1 {
+    font-size: 1.8rem;
+  }
+
+  .store-features {
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px 20px;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .ending {
+    gap: 10px;
+  }
+}
+
+

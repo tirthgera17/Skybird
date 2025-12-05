@@ -44,24 +44,6 @@
   color: #C0C0C0; 
 }
 
-.nav-icons {
-  display: flex;
-  align-items: center;
-  gap: 25px;
-}
-
-.nav-icons i {
-  font-size: 24px;
-  color: #ffffff;
-  cursor: pointer;
-  transition: 0.3s ease;
-}
-
-.nav-icons i:hover {
-  color: #C0C0C0;
-}
-
-
 
 
 /* MAIN PRODUCT SECTION */
@@ -366,3 +348,52 @@
 }
 
 
+
+/* Responsive */
+@media (max-width: 800px) {
+
+  .navbar {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+
+  .nav-links {
+    gap: 10px;
+  }
+
+  .product-container {
+    padding: 15px;
+  }
+
+  .image-row {
+    flex-direction: column;
+  }
+
+  .side-img {
+    width: 100%;
+  }
+
+  .offers {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .offer-box {
+    width: 100%;
+  }
+
+  .btn {
+    font-size: 14px;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .ending { 
+    gap: 10px;
+  }
+}
