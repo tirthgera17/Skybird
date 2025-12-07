@@ -31,5 +31,5 @@ setInterval(() => {
     index = 0;
   }
 
-}, 1500);  // changes every 1.5 seconds
+}, 1500);  
 
